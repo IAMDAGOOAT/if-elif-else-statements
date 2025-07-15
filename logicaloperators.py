@@ -15,3 +15,17 @@ if not g:
     print(True)
 else:
     print(False)
+    
+k = 10
+y = -10
+x = 0
+
+if k > 0 and y > 0:
+    print("either of the number is greater than 0")
+else:
+    print("no number is greater than 0")
+    
+if y > 0 or x > 0:
+    print("one or all of the number is greater than 0")
+else:
+    print("the number is greater than 0")
